@@ -1,0 +1,126 @@
+@media (prefers-reduced-motion:no-preference) {
+    *{
+        scroll-behavior: smooth;
+    }
+}
+body {
+    background-color: #3c533c;
+    color: #babac0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #3c533c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed
+    top: 0;
+}
+h1 {
+    color: #24b661;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 auto;
+}
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+nav > ul > li {
+    color: #bdcfc9;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+nav > ul > li:hover {
+    background-color: darkolivegreen;
+    color: forestgreen;
+    cursor: pointer;
+}
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+main {
+    padding-top: 50px;
+}
+section {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+}
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    border-bottom: 4px solid #134429;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+.info {
+    padding: 10px 0 0 5px;
+}
+.formrow{
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+input {
+    font-size: 18px;
+}
+.info label, .info input {
+    display: inline-block;
+    text-align: right;
+}
+,info-input {
+    width: 10%;
+    text-align: left;
+}
+.info-label {
+    width: 10%;
+    min-width: 55px;
+}
+.answer-list {
+    list-style: none;
+    padding: 0;
+}
+.question-block {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+p {
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+p::before {
+    content: "Question #"
+}
+.question {
+    border: none;
+    padding-bottom: 0;
+}
+button {
+    display: block;
+    margin: 40px auto;
+    width: 30%;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #134429;
+    border: 4px solid;
+}
