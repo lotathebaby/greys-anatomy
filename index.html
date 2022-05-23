@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Kosisochukwu's quiz">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>GREY'S ANATOMY</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about us">About</a></li>
+                    <li><a href="#contact us">Contact</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form method="post" action="http://lotathebaby.website2.me">
+                <section role="region" aria-labelledby="candidate-info">
+                    <h2 id="candidate">Candidate Information</h2>
+                    <div class="info">
+                        <label for="rname">Name: </label>
+                        <input type="text" name="rname" id="rname"/>
+                    </div>
+                    <div class="info">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email"/>
+                    </div>
+                    <div class="info">
+                        <label for="instagram">Instagram handle: </label>
+                        <input type="text" name="insta" id="instagram"/>
+                    </div>
+                    <div class="info">
+                        <label for="birthday">Date Of Birth: </label>
+                        <input type="date" name="birthday" id="birthday"/> 
+                    </div>
+                </section>
+                <section role="region" aria-labelledby="basic-information">
+                    <h2 id="basic-info">Basic Questions</h2>
+                    <div class="question-block">
+                        <p>1</p>
+                        <fieldset class="question" name="question-one">
+                            <legend>What kind of surgeon was Meredith's mother?</legend>
+                            <ul class="answer-list">
+                                <li>
+                                    <label for="ans-1">
+                                        <input type="radio" id="ans-1" name="q1" value="cardio"/>
+                                        Cardio
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="ans-1">
+                                        <input type="radio" id="ans-1" name="q1" value="neuro"/>
+                                        Neuro
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="ans-1">
+                                        <input type="radio" id="ans-1" name="q1" value="general"/>
+                                        General
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div class="question-block">
+                        <p>2</p>
+                        <fieldset class="question" name="question-two">
+                            <legend>In what season did George O'malley die?</legend>
+                            <ul class="answer-list">
+                                <li>
+                                    <label for="ans-2">
+                                        <input type="radio" id="ans-2" name="q2" value="3"/>
+                                        Season 3
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="ans-2">
+                                        <input type="radio" id="ans-2" name="q2" value="6"/>
+                                        Season 6
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="ans-2">
+                                        <input type="radio" id="ans-2" name="q2" value="7"/>
+                                        Season 7
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div class="question-block">
+                        <p>3</p>
+                        <fieldset class="question" name="question-three">
+                            <legend>Jackson Avery is to Mark Sloan as Christina Yang is to?</legend>
+                            <ul class="answer-list">
+                                <li>
+                                    <label for="ans-3">
+                                        <input type="radio" id="ans-3" name="q3" value="derek"/>
+                                        Derek Shepherd
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="ans-3">
+                                        <input type="radio" id="ans-3" name="q3" value="altman"/>
+                                        Teddy Altman
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="ans-3">
+                                        <input type="radio" id="ans-3" name="q3" value="amilia"/>
+                                        Amilia Shepherd
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                </section>
+                <section role="region" aria-labelledby="final-part">
+                    <h2 id="final">Bonus Questions</h2>
+                    <div class="form-row">
+                        <div class="question-block">
+                            <label for="bonus">Who replaced Alex Karev on the plane that crashed?</label>
+                        </div>
+                        <div class="answer">
+                            <select name="bonus" id="bonus">
+                                <option value="">Select an option</option>
+                                <option value="1">Mark Sloan</option>
+                                <option value="2">Arizona Robbins</option>
+                                <option value="3">Calliope Torress</option> 
+                            </select>
+                        </div>
+                        <div class="question-block">
+                            <label for="final">Whose death hurt you the most</label>
+                        </div>
+                        <div class="answer">
+                            <textarea id="final" name="final" rows="5" cols="40" placeholder="Enter text here..."></textarea>
+                        </div>
+                    </div>
+                </section>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
